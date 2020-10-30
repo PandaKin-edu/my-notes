@@ -4,8 +4,8 @@ Logique: 2- Raisonnements
 # Raisonnements
 
 ## raisonnement direct:
-* On veut montrer que l'assertion «$P$ $=>$ $Q$» et Vrais
-* * On suppose que $P$ est vrais et on montre alors $Q$ est vrai.
+* On veut montrer que l'assertion «<img src="https://render.githubusercontent.com/render/math?math=P"> <img src="https://render.githubusercontent.com/render/math?math=\Longrightarrow"> <img src="https://render.githubusercontent.com/render/math?math=Q">» et Vrais
+* * On suppose que <img src="https://render.githubusercontent.com/render/math?math=P"> est vrais et on montre alors <img src="https://render.githubusercontent.com/render/math?math=Q"> est vrai.
 
 ![cafdfb9def62c94e9adb568cfa16ff50.png](../_resources/fd3cc91ecc9e46d08c798d2fb7e39ce5.png)
 ![0d7091156578eda681864cf79504a49b.png](../_resources/ba01cd5dcbc94793a01efa12582bb744.png)
@@ -18,12 +18,12 @@ Logique: 2- Raisonnements
 
 ## Contraposée:
 
-($P$ $<=>$ $Q$) $->$ (non $Q$ $<=>$ non $P$)
+(<img src="https://render.githubusercontent.com/render/math?math=P"> <img src="https://render.githubusercontent.com/render/math?math=\iff "> <img src="https://render.githubusercontent.com/render/math?math=Q">) <img src="https://render.githubusercontent.com/render/math?math=\Longrightarrow "> (<img src="https://render.githubusercontent.com/render/math?math=non "> <img src="https://render.githubusercontent.com/render/math?math=Q"> <img src="https://render.githubusercontent.com/render/math?math=\iff "> <img src="https://render.githubusercontent.com/render/math?math=non "> <img src="https://render.githubusercontent.com/render/math?math=P">)
 ![94392e32d9e25a5554212b8917580953.png](../_resources/6a5a5dda39674499a10e5d72085bc8ef.png)
 
 ## Absurde
-"$P => Q$" est Vrai:
-On supose a la fois que $P$ est vrais et que $Q$ et fausse et on cherche une contradiction.
+<img src="https://render.githubusercontent.com/render/math?math=P \Longrightarrow Q "> est Vrai:
+On supose a la fois que <img src="https://render.githubusercontent.com/render/math?math=P"> est vrais et que <img src="https://render.githubusercontent.com/render/math?math=Q"> et fausse et on cherche une contradiction.
 
 ![84be7d0a1f64ca4d9dd33c18bbf6a415.png](../_resources/783c6b0f1d064a91bb5d2d1582c0a249.png)
 
@@ -34,9 +34,9 @@ On supose a la fois que $P$ est vrais et que $Q$ et fausse et on cherche une con
   ![5d7ad531c23397cdbb19d15e9c10bf70.png](../_resources/c6a072a94d7b4afe89c5e37823f45470.png)
   
 ## Récurrance:
-Soit $P(n)$ une Propriété qui dépend de $n$ ($n$ $\in$ $IN$)
-Pour montrer que $P(n)$ est vrais $\forall n \in IN$
+Soit <img src="https://render.githubusercontent.com/render/math?math=P(n)"> une Propriété qui dépend de $n$ ($n$ $\in$ $IN$)
+Pour montrer que <img src="https://render.githubusercontent.com/render/math?math=P(n)"> est vrais $\forall n \in IN$
 On peut raisonner par récurrence sur n de la façon suivante:
-* On vérifie que $P(0)$ est vrai.
-* On pose $P(n)$ est vrai et montrer que $P(n+1)$ est vrai.
+* On vérifie que <img src="https://render.githubusercontent.com/render/math?math=P(0)"> est vrai.
+* On pose <img src="https://render.githubusercontent.com/render/math?math=P(n)"> est vrai et montrer que $P(n+1)$ est vrai.
 ![80b2c6f9134c09d8c46380a389e43038.png](../_resources/9e0a6ebf74584e93a9d55ac7e97ffa0c.png)

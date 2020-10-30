@@ -3,7 +3,7 @@ les algorithmes de recherche
 # les algorithmes de recherche
 28/10/2020 20:16
 ## Recherche séquentielle / linéaire
-$complexité = O(n)$
+<img src="https://render.githubusercontent.com/render/math?math=complexite= O(n)">
 
 * on parcours les élement d'un tableau **non trié** à partir du début
 ![736f3e993f310fdc433a9940597b3c92.png](../_resources/6a8a05f02ab84c2bbf8690fe6795badb.png)
@@ -35,8 +35,7 @@ int main() {
 }
 ```
 ## Recherche dichotomique
-$complexité = O(log n)$
-
+<img src="https://render.githubusercontent.com/render/math?math=complexite= O(log n)">
 *  on commence par décoper le tableau en deux tablea.
 *  on compare la valeur recherchée avec la valeur du milieu du tableau.
 *  * si la valeur est rechercher est inférieur a la valeur du millieu, alors on cherche dans la 1ére moitié du tableau.

@@ -5,7 +5,7 @@ les algorithmes de tri
 
 ## Tri par sélection
 
-Complexité = $O(n^2)$
+<img src="https://render.githubusercontent.com/render/math?math=complexite=O(n^2)">
 
 - on cherche le plus petit élément de tableau
 - on place cette element au debut
@@ -67,7 +67,7 @@ int main() {
 
 ## Tri à bulles
 
-complexité = $O(n^2)$
+<img src="https://render.githubusercontent.com/render/math?math=complexite=O(n^2)">
 
 - on parcours le tableau
 - on compare les éléments de tableau deux a deux
@@ -123,7 +123,7 @@ int main() {
 ```
 
 ## Tri par insertion
-$Complexité = O(n^2)$
+<img src="https://render.githubusercontent.com/render/math?math=complexite=O(n^2)">
 * on prend le premier élement
 * on prend le deuxième élément et on le trie par rapport au premier
 * on trie les éléments suivants par rapport aux éléments déjà triés
