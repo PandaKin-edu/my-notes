@@ -1,6 +1,6 @@
-1- Modéle osi
+1- Modèle osi
 
-# Modéle Osi
+# Modèle Osi
 Osi $=$ Open Systems Interconnection
 * Couche 1 : **P**hysique (Physical)
 * Couche 2 : **L**iaison de données(Data Link)
@@ -9,7 +9,9 @@ Osi $=$ Open Systems Interconnection
 * Couche 5 : **S**ession
 * Couche 6 : **P**résentation
 * Couche 7 : **A**pplication
+
 ![288bbb9497391161e69370c90e7fd539.png](../_resources/d1b0a9bddd3b4f6695f145c61f5a7902.png)
+
 **P**our **l**e **r**éseau **t**out **s**e **p**asse **a**utomatiquement
 
 #
@@ -17,12 +19,13 @@ Osi $=$ Open Systems Interconnection
 * la premiére couche du modéle OSI
 * Chargée de la transmission effective des signeaux(optique,electrique...)au niveau matériel
 * Chargée de la conversion entre bits et signaux électriques ou optiques
-* Contient les normes : ???
+* Contient les normes : **RJ45**,**RJ11** ...
 ## Couche Liaison de données
 * Fournit les moyens fonctionnels et procéduraux pour le transfert de données entre des entités d'un réseau.
 * Transfére des données entre les noeuds adjacent d'un réseau étandu (WAN).
 * transfére des donnée entre ldes noeuds sure le meme segment d'un réseau local (LAN).
 * Contient (dans certain cas) les moyens de détection des erreurs qui peuvent survenir au niveau de la couche physique.
+* Contient les protocoles: **ARP**,**HDLC**,**MAC**,**ETHERNET**
 ## Couche Réseau
 * s'occupe de toute qui a trait à internet
 * Prend en charge la connectivité et le routage (la selection du chemin)
